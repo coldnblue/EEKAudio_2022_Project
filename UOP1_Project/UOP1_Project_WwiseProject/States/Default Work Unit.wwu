@@ -10,6 +10,13 @@
 						<State Name="CaveReverb_Disabled" ID="{4D48F241-4CE6-4A55-BD4F-E00457F05B3C}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="Underwater" ID="{8539F9B3-BDC0-4644-8FDF-58CDD2F39736}">
+					<ChildrenList>
+						<State Name="None" ID="{0D0AC1F1-9A0A-46B1-9BF4-D38FB40FD793}"/>
+						<State Name="Underwater_On" ID="{24966724-FBC7-4D4D-A140-9F92D7491179}"/>
+						<State Name="Underwater_Off" ID="{0884FBD2-10C0-4C18-B5EF-9F61856D7DB5}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

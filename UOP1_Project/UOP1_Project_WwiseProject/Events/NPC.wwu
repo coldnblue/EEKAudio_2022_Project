@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4B8B7F3D-8125-40BB-9E92-7F55B17B1377}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="NPC" ID="{4B8B7F3D-8125-40BB-9E92-7F55B17B1377}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="NPC" ID="{D503B2F2-6927-4A99-9935-3C104D5701CF}" ShortID="405407007">
+					<ChildrenList>
+						<Event Name="NPC_Hare_Talk" ID="{D3DBC519-7F22-42AD-A18A-F7ED841037E2}">
+							<ChildrenList>
+								<Action Name="" ID="{C9DFC8DD-5509-4E58-91A7-446944CBC6AE}" ShortID="91775327">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="NPCtalking" ID="{46DD766D-D9B5-4C50-8E90-5AF6198EBC01}" WorkUnitID="{1D122DA3-4F6F-4E82-A42B-1FCA294004D8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="NPC_Hare_Song_Long" ID="{6F417ADB-7AC2-4C4C-BE24-C40AB0339E8E}">
+							<ChildrenList>
+								<Action Name="" ID="{ADF28907-269E-444E-A5D6-0AC444459262}" ShortID="128890431">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="singing" ID="{2808470A-6146-4A67-A981-97AA803EAA40}" WorkUnitID="{1D122DA3-4F6F-4E82-A42B-1FCA294004D8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Townsfolk_Female_Talk" ID="{895ACF34-DEFC-4C43-A628-B365E730F77D}">
+							<ChildrenList>
+								<Action Name="" ID="{99234F59-566B-4AA7-AB59-FF91F7B42457}" ShortID="692626293">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Townsfolk" ID="{FD0C30A2-EE04-4FD3-AE47-D67AE35D7B9E}" WorkUnitID="{1D122DA3-4F6F-4E82-A42B-1FCA294004D8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Townsfolk_Male_Talk" ID="{81E37AD3-6DA2-499C-8624-C15E6851E20F}">
+							<ChildrenList>
+								<Action Name="" ID="{D1E1144F-5DB1-4324-B70C-F9402B85B60D}" ShortID="33556197">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Townsfolk2" ID="{DDB5225E-E8E4-42E2-B399-76FD97994E57}" WorkUnitID="{1D122DA3-4F6F-4E82-A42B-1FCA294004D8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Critter" ID="{86D8A22E-65A1-4C36-ABAD-AB8A47A06C7C}" ShortID="794416138">
+					<ChildrenList>
+						<Event Name="Critter_Plant_Idle" ID="{79B0612B-624A-4637-9049-6177060B3F2B}">
+							<ChildrenList>
+								<Action Name="" ID="{39A21B57-E25E-4F05-9160-577B913FC001}" ShortID="838560961">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CritterIdle" ID="{7074A4DE-106C-486E-A3B3-2FE307D5CA4D}" WorkUnitID="{1D122DA3-4F6F-4E82-A42B-1FCA294004D8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Critter_Plant_Attack" ID="{0FA9EF31-AA6E-4432-9687-A401F5019C96}">
+							<ChildrenList>
+								<Action Name="" ID="{B7FC67DB-07E4-4D7A-9D83-9AF088BBEBE6}" ShortID="691117690">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CritterAttack" ID="{5BEEF5FA-470A-4D33-98A8-9E62A2F69B62}" WorkUnitID="{1D122DA3-4F6F-4E82-A42B-1FCA294004D8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Critter_Plant_GettingHit" ID="{9801BBEB-C5D0-4EF8-BFE3-7CADC9760737}">
+							<ChildrenList>
+								<Action Name="" ID="{54FCD351-2675-45A6-9787-6DB5D22AA431}" ShortID="187016429">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="critterhit" ID="{7E9FBBA8-01CA-40D7-A733-D0B7DDEFA1A3}" WorkUnitID="{1D122DA3-4F6F-4E82-A42B-1FCA294004D8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Critter_Plant_Death" ID="{65B2F734-3B28-4F39-B771-77D3F3691233}">
+							<ChildrenList>
+								<Action Name="" ID="{7E287CD7-E6C4-4761-8539-E6C5604AD85B}" ShortID="339085423">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Critterdeath" ID="{CA00E222-D33F-4BDC-A776-456B36E50250}" WorkUnitID="{1D122DA3-4F6F-4E82-A42B-1FCA294004D8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

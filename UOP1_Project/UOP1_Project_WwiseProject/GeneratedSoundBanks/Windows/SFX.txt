@@ -1,5 +1,99 @@
 Event	ID	Name			Wwise Object Path	Notes
+	592624029	UI_Shuffle			\UI\UI_Shuffle	
+	660562971	Townsfolk_Male_Talk			\NPC\NPC\Townsfolk_Male_Talk	
+	728646680	Amb_Field_Farms			\Ambience\2D\Amb_Field_Farms	
+	816303795	Player_Grab			\Player\Player_Actions\Player_Grab	
+	859052727	Amb_Beach			\Ambience\2D\Amb_Beach	
+	1363577934	Player_Jump_LiftOff			\Player\Player_Actions\Player_Jump_LiftOff	
+	1419286180	NPC_Hare_Talk			\NPC\NPC\NPC_Hare_Talk	
+	1542330065	Player_Die			\Player\Player_Actions\Player_Die	
+	1717767246	NPC_Hare_Song_Long			\NPC\NPC\NPC_Hare_Song_Long	
+	1730208058	Player_Footsteps			\Player\Footsteps\Player_Footsteps	
+	1822764980	Critter_Plant_GettingHit			\NPC\Critter\Critter_Plant_GettingHit	
+	1824690809	Amb_BoilingWater			\Ambience\3D\Amb_BoilingWater	
 	1879932703	CaveReverb_Disable			\Ambience\Reverb\CaveReverb_Disable	
 	1940944140	CaveReverb_Enable			\Ambience\Reverb\CaveReverb_Enable	
+	1969612259	Critter_Plant_Attack			\NPC\Critter\Critter_Plant_Attack	
+	1997053204	Amb_Field_Hill			\Ambience\2D\Amb_Field_Hill	
+	2060690880	Player_Water_Splash			\Player\Player_Actions\Player_Water_Splash	
+	2249769530	UI_Click			\UI\UI_Click	
+	2565812264	Amb_torch			\Ambience\3D\Amb_torch	
+	2644861617	Amb_Trees			\Ambience\3D\Amb_Trees	
+	2675089675	Player_Talk			\Player\Player_Actions\Player_Talk	
+	2824512041	Player_Attack			\Player\Player_Actions\Player_Attack	
+	2891098061	Critter_Plant_Idle			\NPC\Critter\Critter_Plant_Idle	
+	2910694179	Critter_Plant_Death			\NPC\Critter\Critter_Plant_Death	
+	2971175702	Townsfolk_Female_Talk			\NPC\NPC\Townsfolk_Female_Talk	
+	3072576347	AddToInventory			\UI\AddToInventory	
 	3170972326	Scene_Change			\Control\Scene_Change	
+	3207324726	Amb_Fire			\Ambience\3D\Amb_Fire	
+	3210856931	UI_Use			\UI\UI_Use	
+	3484321931	Player_Heartbeat			\Player\Player_Actions\Player_Heartbeat	
+	3635877684	Amb_Ocean			\Ambience\3D\Amb_Ocean	
+	3755979049	Amb_Cave			\Ambience\3D\Amb_Cave	
+	3856109001	Player_Jump_Landing			\Player\Player_Actions\Player_Jump_Landing	
+	3945457670	Player_GetHit			\Player\Player_Actions\Player_GetHit	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+
+Switch	ID	Name	Switch Group			Notes
+	547160665	Surface_Grass	Footsteps			
+	1810448540	Surface_Stone	Footsteps			
+	1897702823	Surface_Sand	Footsteps			
+	3248230778	Surface_Water	Footsteps			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3677180323	Health			\Default Work Unit\Controls\Health	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	2375836	Player_StepWater_01	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Footsteps\Player_StepWater_01_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player footsteps\Footsteps_Water\Player_StepWater_01		68496
+	44265036	UI_Use	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\pick up 2_94EA2AD8.wem		\Actor-Mixer Hierarchy\UI\UI\UI_Use		98032
+	62563116	Player_StepSand_03	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Footsteps\Player_StepSand_03_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player footsteps\Footsteps_Sand\Player_StepSand_03		51328
+	111649049	Player_StepGrass_01	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Footsteps\Player_StepGrass_01_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player footsteps\Footsteps_Grass\Player_StepGrass_01		45572
+	129601315	hit_2	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Actions\hit_2_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\PlayerActions\hit\hit_2		95788
+	131490332	UI_Click	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\UI\Menu click_10C4C929.wem		\Actor-Mixer Hierarchy\UI\UI\UI_Click		21544
+	165508393	Heartbeat	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Actions\Heartbeat_D79FB2B7.wem		\Actor-Mixer Hierarchy\Player\Player\PlayerActions\Heartbeat		3522872
+	241294478	Player_StepRock_04	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Footsteps\Player_StepRock_04_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player footsteps\Footsteps_Rock\Player_StepRock_04		43496
+	243024971	player talking	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Actions\player talking_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\PlayerActions\PlayerTalking\player talking		472840
+	244206077	Player_StepWater_02	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Footsteps\Player_StepWater_02_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player footsteps\Footsteps_Water\Player_StepWater_02		55996
+	249090013	New Sound SFX_01	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Ambience\Ocean_Ambient_C1F52A07.wem		\Actor-Mixer Hierarchy\Ambience\2D\2D Ambience\Forest\New Sound SFX_01		1221687
+	264463930	New Sound SFX	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Ambience\Forest_Ambient_C1F52A07.wem		\Actor-Mixer Hierarchy\Ambience\2D\2D Ambience\Forest\New Sound SFX		460151
+	287613525	Death	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Actions\death_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\PlayerActions\Death		689672
+	411781190	Gettinghit	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Actions\playergettinghit_0AD3F6E7.wem		\Actor-Mixer Hierarchy\Player\Player\PlayerActions\Gettinghit		66260
+	413478306	hit_1	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Actions\hit_1_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\PlayerActions\hit\hit_1		103428
+	436135225	Player_StepGrass_03	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Footsteps\Player_StepGrass_03_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player footsteps\Footsteps_Grass\Player_StepGrass_03		45900
+	449539858	Player_StepWater_04	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Footsteps\Player_StepWater_04_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player footsteps\Footsteps_Water\Player_StepWater_04		52460
+	469258346	Grabbing	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Actions\PlayerGrab_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\PlayerActions\Grabbing		44976
+	496615607	critteridle	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Actions\critteridle_D79FB2B7.wem		\Actor-Mixer Hierarchy\NPC\NPC\Critter\CritterIdle\critteridle		1020388
+	531499786	Trees	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\3D Ambience\Trees_10C4C929.wem		\Actor-Mixer Hierarchy\Ambience\3D\3D Ambience\Trees		27765936
+	534108337	Player_StepGrass_02	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Footsteps\Player_StepGrass_02_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player footsteps\Footsteps_Grass\Player_StepGrass_02		47876
+	597246452	NPCtalking 2	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Actions\NPCtalking 2_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\NPC\NPCActions\Townsfolk2\NPCtalking 2		443628
+	598380561	Splosh_3	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Actions\Splosh_3_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\PlayerActions\Splosh\Splosh_3		385652
+	616100038	CritterAttack	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Actions\critterattack_8D0C2999.wem		\Actor-Mixer Hierarchy\NPC\NPC\Critter\CritterAttack		46984
+	626771090	Jump	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Actions\playerjump_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\PlayerActions\Jump		34068
+	644291237	Beach	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Ambience\Ocean_Ambient_3D1D1BA5.wem		\Actor-Mixer Hierarchy\Ambience\2D\2D Ambience\Beach		1221687
+	674539154	hit_3	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Actions\hit_3_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\PlayerActions\hit\hit_3		65676
+	701357609	NPCtalking	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Actions\NPCtalking_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\NPC\NPCActions\NPCtalking\NPCtalking		443628
+	716250805	singing	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Actions\NPCSinging_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\NPC\NPCActions\singing		1061992
+	744504296	NPCtalking 3	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Actions\NPCtalking 3_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\NPC\NPCActions\Townsfolk\NPCtalking 3		443628
+	764637526	Ocean_3D	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\3D Ambience\Ocean_3D_10C4C929.wem		\Actor-Mixer Hierarchy\Ambience\3D\3D Ambience\Ocean_3D\Ocean_3D		13998672
+	767205224	Player_StepSand_04	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Footsteps\Player_StepSand_04_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player footsteps\Footsteps_Sand\Player_StepSand_04		62216
+	783398766	Splosh_2	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Actions\Splosh_2_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\PlayerActions\Splosh\Splosh_2		370448
+	784345248	UI_Shuffle	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Menu hover_10C4C929.wem		\Actor-Mixer Hierarchy\UI\UI\UI_Shuffle		15308
+	791175063	Torch	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\3D Ambience\Torch_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambience\3D\3D Ambience\Torch		3721472
+	840444092	Player_StepWater_03	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Footsteps\Player_StepWater_03_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player footsteps\Footsteps_Water\Player_StepWater_03		47536
+	844187273	Player_StepGrass_04	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Footsteps\Player_StepGrass_04_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player footsteps\Footsteps_Grass\Player_StepGrass_04		45812
+	855351729	Fireplace	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\3D Ambience\Fireplace_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambience\3D\3D Ambience\Fireplace		3010472
+	880423857	Player_StepRock_03	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Footsteps\Player_StepRock_03_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player footsteps\Footsteps_Rock\Player_StepRock_03		55872
+	908523380	Cave	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\3D Ambience\Cave_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambience\3D\3D Ambience\Cave		17912244
+	909560164	Player_StepRock_01	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Footsteps\Player_StepRock_01_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player footsteps\Footsteps_Rock\Player_StepRock_01		42360
+	950706609	Land	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Actions\playerland_31AA01BC.wem		\Actor-Mixer Hierarchy\Player\Player\PlayerActions\Land		23396
+	956413319	Player_StepRock_01-001	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Footsteps\Player_StepRock_01-001_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player footsteps\Footsteps_Rock\Player_StepRock_01-001		49052
+	959639653	Player_StepSand_01	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Footsteps\Player_StepSand_01_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player footsteps\Footsteps_Sand\Player_StepSand_01		64940
+	995466248	Town	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Ambience\Town_Ambient_3D1D1BA5.wem		\Actor-Mixer Hierarchy\Ambience\2D\2D Ambience\Town		952252
+	999552832	Critterdeath	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Actions\Critterplantgetting hit_DB73E26E.wem		\Actor-Mixer Hierarchy\NPC\NPC\Critter\Critterdeath		115656
+	1028055101	critterhit	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Actions\critterhit_10C4C929.wem		\Actor-Mixer Hierarchy\NPC\NPC\Critter\critterhit		36648
+	1036628140	Player_StepSand_02	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Footsteps\Player_StepSand_02_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\Player footsteps\Footsteps_Sand\Player_StepSand_02		54276
+	1069055184	Splosh_1	C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\SFX\Player\Actions\Splosh_1_10C4C929.wem		\Actor-Mixer Hierarchy\Player\Player\PlayerActions\Splosh\Splosh_1		362156
 

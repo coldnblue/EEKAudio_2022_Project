@@ -5,8 +5,11 @@
 			<ChildrenList>
 				<SoundBank Name="SFX" ID="{9DF4FF59-820F-47C8-8B41-ED0471029A30}">
 					<ObjectInclusionList>
+						<ObjectRef Name="NPC" ID="{4B8B7F3D-8125-40BB-9E92-7F55B17B1377}" WorkUnitID="{4B8B7F3D-8125-40BB-9E92-7F55B17B1377}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambience" ID="{80D5CED2-A890-4539-AE65-D1FA261578A0}" WorkUnitID="{80D5CED2-A890-4539-AE65-D1FA261578A0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI" ID="{1258CD41-2AFF-4ACE-B79C-E492A650A3B0}" WorkUnitID="{1258CD41-2AFF-4ACE-B79C-E492A650A3B0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Control" ID="{8764B89E-BEAC-4BB1-8D7B-846D143E520D}" WorkUnitID="{8764B89E-BEAC-4BB1-8D7B-846D143E520D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player" ID="{AC48DC9A-9B47-4BC7-92DA-2B87F74641A5}" WorkUnitID="{AC48DC9A-9B47-4BC7-92DA-2B87F74641A5}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

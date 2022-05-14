@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AC48DC9A-9B47-4BC7-92DA-2B87F74641A5}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Player" ID="{AC48DC9A-9B47-4BC7-92DA-2B87F74641A5}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="9"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Footsteps" ID="{7C38EBFB-BC4E-41D4-AF54-C9906C84AD3F}" ShortID="830080413">
+					<ChildrenList>
+						<Event Name="Player_Footsteps" ID="{A12FABF8-CB62-4211-8088-65392E82116C}">
+							<ChildrenList>
+								<Action Name="" ID="{DA604E02-F5DB-4593-A350-73C4F03B73F2}" ShortID="424496230">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player footsteps" ID="{A62FFA08-31AE-4169-91CC-CFEDEFEC799D}" WorkUnitID="{F9BE15FA-42D7-46CA-909D-B01CCF000DC5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Player_Actions" ID="{00707128-47DE-4CDF-B596-A652E5E3FAE4}" ShortID="127517785">
+					<ChildrenList>
+						<Event Name="Player_Attack" ID="{57B6ADD5-975A-4678-94BF-CD14DA25746A}">
+							<ChildrenList>
+								<Action Name="" ID="{9F91E4BD-3B22-4899-9496-4CE8216CE2C0}" ShortID="308114787">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="hit" ID="{0D692758-2181-4BE0-B792-A36C55C23C09}" WorkUnitID="{F9BE15FA-42D7-46CA-909D-B01CCF000DC5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Talk" ID="{FED9E53C-9B60-4376-B060-9EAED96B9587}">
+							<ChildrenList>
+								<Action Name="" ID="{8C0D0E48-C74F-4600-BF92-8CF933CDC0C2}" ShortID="889102053">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PlayerTalking" ID="{F0963DF2-2A4E-4B19-9C93-E6D83413C239}" WorkUnitID="{F9BE15FA-42D7-46CA-909D-B01CCF000DC5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Grab" ID="{085CAFE5-0DF3-4EFF-96AA-8C78B8516AD3}">
+							<ChildrenList>
+								<Action Name="" ID="{F586B838-761D-4262-9461-765BD693BFC2}" ShortID="161766025">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grabbing" ID="{DA76C090-F189-47CA-8C3E-AF76040A2E77}" WorkUnitID="{F9BE15FA-42D7-46CA-909D-B01CCF000DC5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Die" ID="{27BAA602-419A-453E-8A8A-5BE5D865225D}">
+							<ChildrenList>
+								<Action Name="" ID="{82082A49-14B0-4331-A265-8B7666BE5439}" ShortID="631947174">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Death" ID="{B976940D-38F0-47E7-A15C-CB5BA9BDDF80}" WorkUnitID="{F9BE15FA-42D7-46CA-909D-B01CCF000DC5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_GetHit" ID="{AE750825-21C6-400C-808E-BBFA86E11C71}">
+							<ChildrenList>
+								<Action Name="" ID="{5F65C437-5FF9-4BA2-90CA-6341A729F3DC}" ShortID="468944722">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gettinghit" ID="{75E4D7C6-0FF4-473B-BB08-E9C9AE860251}" WorkUnitID="{F9BE15FA-42D7-46CA-909D-B01CCF000DC5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Jump_Landing" ID="{05CC2BDF-8E61-41D3-A78B-2C7F8E2BA42F}">
+							<ChildrenList>
+								<Action Name="" ID="{78B58857-B8BD-406E-8B22-F41F63AB87EE}" ShortID="1067759152">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Land" ID="{68357376-79F0-4174-82E6-C51CB1677E54}" WorkUnitID="{F9BE15FA-42D7-46CA-909D-B01CCF000DC5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Jump_LiftOff" ID="{84AA618D-B039-4E45-9D09-D29FD88DB2AF}">
+							<ChildrenList>
+								<Action Name="" ID="{DCBF4110-8495-46AD-977D-72354905E959}" ShortID="654497988">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Jump" ID="{4BBF40E6-34F9-497B-B2BC-A3ED0C641DCB}" WorkUnitID="{F9BE15FA-42D7-46CA-909D-B01CCF000DC5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Heartbeat" ID="{2408C276-61FE-4725-AFA1-143E39802B80}">
+							<ChildrenList>
+								<Action Name="" ID="{D27E135D-C3C8-4722-8EFA-20E315F739F3}" ShortID="279586332">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Heartbeat" ID="{E43103CD-95FC-4E42-BB2C-E0F40E31A475}" WorkUnitID="{F9BE15FA-42D7-46CA-909D-B01CCF000DC5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Water_Splash" ID="{465BA79C-0CDB-458B-B157-01623B9156E5}">
+							<ChildrenList>
+								<Action Name="" ID="{AA4E76D2-2256-48A2-9D2A-9D345CC5D002}" ShortID="892551832">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Splosh" ID="{38C33159-33CB-4014-84D2-4DED13E3ADE6}" WorkUnitID="{F9BE15FA-42D7-46CA-909D-B01CCF000DC5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

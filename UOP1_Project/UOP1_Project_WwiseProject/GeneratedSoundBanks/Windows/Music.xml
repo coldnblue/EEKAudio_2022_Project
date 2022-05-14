@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\mjoll\Documents\repositories\EEK course\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\mjoll\Documents\repositories\EEK course\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\mjoll\Documents\repositories\EEK course\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\mjoll\Documents\repositories\EEK course\EEKAudio_2022_Project\UOP1_Project\UOP1_Project_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\ajuti\Documents\GitHub\Siim_Pyvi_Audio_2022\UOP1_Project\UOP1_Project_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="3991942870" GUID="{33846118-30EB-491F-BA51-6B900B7B3237}" Language="SFX" Hash="3470493165">

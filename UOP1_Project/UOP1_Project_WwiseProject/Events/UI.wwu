@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1258CD41-2AFF-4ACE-B79C-E492A650A3B0}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="UI" ID="{1258CD41-2AFF-4ACE-B79C-E492A650A3B0}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="19"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="UI_Click" ID="{F1A7D7AA-7928-427A-84C4-538F89F2B0F8}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{90FC1549-B972-4B8B-AA31-4DD528F89451}" ShortID="1030045940">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Click" ID="{6D04FD26-7B2A-427E-B9EB-E9B96940D7EC}" WorkUnitID="{123F13B2-6764-4A29-BCC9-8D6A18CD6B5B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AddToInventory" ID="{850E24F6-DE45-4D25-84E1-40F10AD7A8F1}"/>
+				<Event Name="UI_Use" ID="{F524D40D-CB2D-475E-B14A-E8ABF285C99E}">
+					<ChildrenList>
+						<Action Name="" ID="{33D49318-A994-40C3-A448-B12E6D616210}" ShortID="343518048">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Use" ID="{A2933577-CBDF-44A3-B572-37A285EE8135}" WorkUnitID="{123F13B2-6764-4A29-BCC9-8D6A18CD6B5B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Shuffle" ID="{98AB687D-BFA7-425D-B9E4-1EEE79684C9D}">
+					<ChildrenList>
+						<Action Name="" ID="{1A75D777-F96A-4D21-BA4D-8902F1FC486D}" ShortID="194790863">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Shuffle" ID="{C811CD33-2815-4657-957F-C7B8236EBBAF}" WorkUnitID="{123F13B2-6764-4A29-BCC9-8D6A18CD6B5B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
